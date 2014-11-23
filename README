@@ -1,4 +1,8 @@
-This is your new Play application
+pi-play-gpio
 =================================
 
-This file will be packaged with your application, when using `activator dist`.
+Example project for using the Java Play Framework and Pi4J to switch on and off a LED connected to a Raspberry Pi
+
+Description of the idea at 
+http://technik.elbebilder.de/2014/11/24/raspberry-pi-led-per-weboberflaeche-steuern-mit-java-play-und-pi4j/
+(only in German)
