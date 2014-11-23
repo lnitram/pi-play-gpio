@@ -1,0 +1,11 @@
+@(title: String)
+
+@main(title) {
+  <div class="starter-template">
+  <h1>LED-Control</h1>
+  <button type="button" class="btn btn-success" onclick="$.get('/api/setLed?status=true', function(){})" name = "ledOn" value = "LED on">LED on</button> <br/><br/>
+  <button type="button" class="btn btn-danger" onclick="$.get('/api/setLed?status=false', function(){})" name = "ledOff" value = "LED off">LED off</button> <br/><br/>
+  <button type="button" class="btn btn-primary" onclick="$.get('/api/toggleLed', function(){})" name = "toggleLED" value = "LED toggle">LED toggle</button> <br/><br/>
+  </div>
+}
+
